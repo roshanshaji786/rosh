@@ -3,39 +3,42 @@
 **THE ULTIMATE GUIDE TO A SUCCESSFUL MARRIAGE**
 A Comprehensive Manual for Muslim Couples
 
-**Version:** 2.0 (Parts 1–4 Complete)
+**Version:** 3.0 — **ALL FIVE PARTS COMPLETE**
 **Date:** August 15, 2026
 **Repository:** https://github.com/roshanshaji786/rosh
 
 ---
 
-## 📊 Statistics
+## 📊 Final Statistics
 
 | Metric | Value |
 |--------|-------|
-| **Total pages (PDF)** | **192** |
-| Total parts | 4 of 5 |
-| Total chapters | 21 |
-| Total appendices | 16 (A–P) |
-| Markdown lines | ~8,100 |
+| **Total pages (PDF)** | **230** |
+| Parts | **5 of 5 — complete** |
+| Chapters | **27** |
+| Appendices | **22 (A–V)** |
+| Markdown lines | ~9,650 |
 | Islamic sources | 10 books + Quran & the two Sahihs |
 | General relationship sources | 10 books |
-| Practical exercises | 60+ |
-| Worksheets & templates | 16 |
-| Duas included | 25+ |
+| Practical exercises | 70+ |
+| Worksheets & templates | 22 |
+| Du'as included | 35+ |
 
 ---
 
 ## 📕 Deliverables
 
 ### Primary
-- **`ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-4.pdf`** — 192 pages, A4, paginated, running headers
-- `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-4.html` — browser edition
-- `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-4.md` — source
+- **`ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.pdf`** — **230 pages**, A4, paginated, running headers
+- `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.html` — browser edition
+- `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.md` — source
 
 ### Individual parts
-- `ULTIMATE_MARRIAGE_GUIDE_Parts_1-3.{md,html,pdf}` — 145 pages, Ch. 1–15, App. A–J
-- `ULTIMATE_MARRIAGE_GUIDE_Part_4.{md,html,pdf}` — 47 pages, Ch. 16–21, App. K–P
+| File | Content | Pages |
+|------|---------|-------|
+| `ULTIMATE_MARRIAGE_GUIDE_Parts_1-3.{md,html,pdf}` | Ch. 1–15, App. A–J | 145 |
+| `ULTIMATE_MARRIAGE_GUIDE_Part_4.{md,html,pdf}` | Ch. 16–21, App. K–P | 47 |
+| `ULTIMATE_MARRIAGE_GUIDE_Part_5.{md,html,pdf}` | Ch. 22–27, App. Q–V | 39 |
 
 ### Supporting
 - `tools/build_docs.py` — pure-Python markdown → HTML + PDF builder
@@ -44,53 +47,63 @@ A Comprehensive Manual for Muslim Couples
 
 ---
 
-## ✅ Part 4: Overcoming Challenges (New in v2.0)
+## 🗂️ The Complete Structure
 
-| Ch. | Title | Core content |
-|-----|-------|--------------|
-| 16 | When Love Fades | Mawaddah vs. rahmah, bids for connection (Gottman 86% vs. 33%), Perel's closeness/desire paradox, Negative Sentiment Override & *husn al-dhann*, love-map rebuild, the Magic Six Hours, rekindling through worship, asymmetric motivation |
-| 17 | Trust & Betrayal | Six forms of betrayal, *mithaqan ghaliza*, betrayal trauma, the seven conditions of recovery, the four conditions of tawbah incl. *haqq al-'ibad*, Atone → Attune → Attach, pornography (spiritual + neurological), the trust ledger, forgiveness vs. trust |
-| 18 | Anger, Harm & Toxic Patterns | Prophetic anger protocol, diffuse physiological arousal & the 20-minute rule, time-out agreement, Four Horsemen antidotes, contempt as top divorce predictor, seven toxic patterns, the six-level Escalation Ladder, abuse defined, the unambiguous Islamic position (incl. a careful treatment of 4:34), guidance for families & imams, and for those causing harm |
-| 19 | Trials | Infertility (Quran 42:49–50, IVF & kafalah notes, the Shield Agreement), miscarriage & child loss, chronic illness & caregiver burnout, mental illness & stigma, financial catastrophe, the Trial Protocol, the duas of the Prophets |
-| 20 | Modern Pressures | Phubbing research, the Household Tech Charter, the comparison trap, the Screenshot Test, long-distance marriage (incl. Umar RA's four-month standard), addiction (the four C's, non-shaming approach), deen vs. 'urf vs. preference, burnout & the second shift |
-| 21 | Divorce & Reconciliation | "Most hated of permissible things" read precisely, the seven-step Quranic pre-divorce process incl. the commanded 4:35 arbitration, indicators divorce may be right, talaq/khula/faskh/mubara'ah/tafwid, talaq al-Sunnah, talaq in anger, the ethics of divorcing well, children as non-parties, the reconciliation off-ramps, life after divorce & dismantling stigma |
-
-### Appendices K–P
-- **K** — Weekly "State of the Union" meeting agenda + score sheet
-- **L** — Transparency & Trust-Rebuilding Agreement (7 sections, incl. sunset clause)
-- **M** — Safety Assessment checklist & Safety Plan (documents, contacts, digital safety)
-- **N** — Duas for Hardship & Healing (Yunus, Ayyub, Zakariyya, istikhara, and more)
-- **O** — Household Tech Charter template (12 commitments)
-- **P** — Crisis Decision Tree (safety → betrayal → trial → toxicity → drift)
+| Part | Title | Chapters | Appendices |
+|------|-------|----------|-----------|
+| 1 | The Foundation of Marriage | 1–5 | — |
+| 2 | Building a Strong Marriage | 6–10 | — |
+| 3 | Practical Aspects of Married Life | 11–15 | A–J |
+| 4 | Overcoming Challenges | 16–21 | K–P |
+| 5 | Creating a Lasting Legacy | 22–27 | Q–V |
 
 ---
 
-## 🔧 PDF Generation — Resolved
+## ✅ Part 5: Creating a Lasting Legacy (New in v3.0)
 
-Earlier versions of this project shipped without a PDF because pandoc, wkhtmltopdf, and WeasyPrint's system libraries were unavailable in the build environment.
+| Ch. | Title | Core content |
+|-----|-------|--------------|
+| 22 | Marriage as Sadaqah Jariyah | The two ledgers (Quran 36:12 — deeds *and* traces), reward that multiplies rather than divides, the four pillars of marital legacy, the Legacy Audit, the three-horizon framework, writing your own eulogies, the household as an institution, the family mission statement |
+| 23 | Building a Household That Outlives You | Culture is caught not taught; the six elements of transmissible culture (rituals, language, hospitality, generosity, knowledge, **repair**); raising children who *choose* the deen (warmth + standards vs. pressure); silat ar-rahim as a barakah mechanism; the physical home as a legacy artifact |
+| 24 | Growing Old Together | The five predictable transitions; the empty nest as a hidden crisis point and "grey divorce"; empty-nest projects; intimacy and affection have no retirement age; caregiving as the purest rahmah; Quran 17:23–24 and adult children; grandparenting — maximum warmth, zero authority; the harvest season and Quran 46:15 |
+| 25 | Remarriage, Blended Families & Second Chances | Islam's active endorsement of remarriage (Khadijah, Umm Salamah, Zaynab bint Jahsh RA — Quran 33:37 revealed to end the stigma); the eight-question readiness assessment; the pre-nikah conversations; blended families take 4–7 years; **the biological parent disciplines, the step-parent builds relationship**; the step-relation mahram table (stepsiblings are NOT mahram); widowhood remarriage; an honest, caveated note on polygyny including its legal status in India |
+| 26 | Widowhood, Wills & Preparing for the Inevitable | "Not two nights without a written will" (Bukhari/Muslim); what a wasiyyah must address; the **two-document reality** — an Islamic will has no legal force in most jurisdictions; the "If I Die Tomorrow" file; **the letters** (including explicit permission to grieve and remarry); a widow's rights and the haram cultural practices that deny them; the Annual Mortality Conversation |
+| 27 | Reuniting in Jannah | Quran 13:23 and 40:8 — three generations reunited; **marriage as vehicle, not destination**; the Akhirah Question as a conflict circuit-breaker; spouses in Jannah and Quran 7:43; ten practices for a Jannah-aimed marriage; the du'a of 'Ibad ar-Rahman (25:74); the final reframe — your spouse is the arena of your worship, not an obstacle to it |
 
-**This is now fixed.** `tools/build_docs.py` generates the PDF using only `markdown` + `reportlab` + `fonttools` — all pip-installable, with no system library dependencies. It handles headings, tables (with repeating headers), blockquotes, nested lists, fenced code, pagination, running headers, page numbers, glyph coverage filtering, and auto-repair of malformed inline markup.
+### Appendices Q–V
+- **Q** — Legacy Audit, Four Pillars Scorecard & Family Mission Statement template
+- **R** — Pre-Remarriage Discussion Guide (7 sections: readiness, children, money, the ex, housing, deen, agreements)
+- **S** — Islamic Will Preparation Checklist (estate inventory, liabilities, the one-third bequest, fara'id, appointments, legal validity, funeral wishes)
+- **T** — The "If I Die Tomorrow" File (call-first list, documents, financials, digital, care arrangements, letters, annual review)
+- **U** — Du'as for Family, Legacy & the Hereafter (25:74, 14:40, 46:15, 17:24, 40:8, husn al-khatimah, and more)
+- **V** — The Annual Marriage & Legacy Review (year behind, 10-dimension scorecard, legacy check, preparation check, year ahead)
+
+---
+
+## 🔧 PDF Generation
+
+Fully automated via `tools/build_docs.py` — pure Python (`markdown` + `reportlab` + `fonttools`), no pandoc, wkhtmltopdf, WeasyPrint, or Chromium required.
 
 ```bash
 pip install --break-system-packages markdown reportlab fonttools
 python3 tools/build_docs.py --all
 ```
 
----
+Handles A4 pagination, running headers, page numbers, tables with repeating headers, pull-quotes, nested lists, fenced code, font glyph-coverage filtering, and auto-repair of malformed inline markup.
 
-## 🗺️ Remaining Work
-
-**Part 5: Creating a Lasting Legacy** (~20 pages)
-- Growing old together — marriage in the later decades
-- Raising righteous children and grandchildren
-- Remarriage, blended families & second chances
-- Marriage as sadaqah jariyah
-- Reuniting in Jannah
+**Note:** Arabic script is preserved in the `.md` and `.html` outputs but omitted from the PDF (ReportLab lacks RTL shaping). Transliterations and English translations are retained throughout, so no meaning is lost in the PDF.
 
 ---
 
 ## ⚠️ Disclaimers
 
-- **Educational, not a fatwa.** Consult a qualified scholar for rulings; consult a lawyer for legal matters.
+- **Educational, not a fatwa.** Rulings on divorce, inheritance, custody, polygyny, and IVF vary by madhhab and jurisdiction. Consult a qualified scholar.
+- **Legal matters require a lawyer.** This is especially true for wills (Chapter 26) and second marriages (Chapter 25) — an Islamic instrument alone is not legally binding in most countries.
 - **Not therapy.** Chapters 17–20 address trauma, addiction, depression, and abuse — involve licensed professionals.
 - **Safety over patience.** See Chapter 18 and Appendix M.
+
+---
+
+## ✅ Project Status: COMPLETE
+
+All five parts written, built, and committed. 27 chapters, 22 appendices, 230 pages, in markdown, HTML, and PDF.

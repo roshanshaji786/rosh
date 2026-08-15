@@ -27,7 +27,7 @@ sudo apt-get install -y fonts-dejavu-core   # if missing
 python3 tools/build_docs.py --all
 
 # Build a specific file
-python3 tools/build_docs.py ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-4.md
+python3 tools/build_docs.py ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.md
 ```
 
 ### Output
@@ -59,7 +59,7 @@ For each `NAME.md`, the builder writes:
 
 Works everywhere, no installs. The HTML files include a `@media print` stylesheet with A4 sizing and page-break control.
 
-1. Open `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-4.html` in Chrome, Edge, Firefox, or Safari.
+1. Open `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.html` in Chrome, Edge, Firefox, or Safari.
 2. Press `Ctrl + P` (Windows/Linux) or `Cmd + P` (Mac).
 3. Set destination to **Save as PDF**.
 4. Recommended settings: A4, default margins, **Background graphics ON** (so table headers keep their color).
@@ -70,7 +70,7 @@ Works everywhere, no installs. The HTML files include a `@media print` styleshee
 ## 📄 Method 3: Pandoc
 
 ```bash
-pandoc ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-4.md \
+pandoc ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.md \
   -o guide.pdf \
   --pdf-engine=xelatex \
   -V mainfont="DejaVu Sans" \
@@ -88,7 +88,7 @@ Requires a TeX distribution. Use a Unicode-capable font, since the source contai
 wkhtmltopdf --enable-local-file-access \
   --page-size A4 --margin-top 18mm --margin-bottom 18mm \
   --footer-center "[page]" \
-  ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-4.html guide.pdf
+  ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.html guide.pdf
 ```
 
 ---
@@ -109,6 +109,7 @@ wkhtmltopdf --enable-local-file-access \
 
 | Source | HTML | PDF | Pages |
 |--------|------|-----|-------|
-| `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-4.md` | 574 KB | 611 KB | **192** |
+| `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.md` | 678 KB | 721 KB | **230** |
 | `ULTIMATE_MARRIAGE_GUIDE_Parts_1-3.md` | 440 KB | 450 KB | 145 |
 | `ULTIMATE_MARRIAGE_GUIDE_Part_4.md` | 135 KB | 203 KB | 47 |
+| `ULTIMATE_MARRIAGE_GUIDE_Part_5.md` | 106 KB | 154 KB | 39 |
