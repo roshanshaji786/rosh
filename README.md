@@ -2,7 +2,7 @@
 
 A Comprehensive Manual for Muslim Couples — Synthesizing Wisdom from 20 Bestselling Books on Islamic & General Marriage
 
-**Version 3.0 — ALL FIVE PARTS COMPLETE · 27 Chapters · Appendices A–V · 230 pages**
+**Final Edition · Version 3.0 — ALL FIVE PARTS COMPLETE · 27 Chapters · Appendices A–V · 266 pages**
 
 ---
 
@@ -23,7 +23,8 @@ It covers **all aspects of married life**: spiritual, emotional, financial, phys
 
 | File | Description | Pages | Size |
 |------|-------------|-------|------|
-| **`ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.pdf`** | **The complete edition, Parts 1–5** | **230** | ~721 KB |
+| **`ULTIMATE_MARRIAGE_GUIDE_FINAL_EDITION.pdf`** | **⭐ The final, print-ready book** — cover, TOC with page numbers, part dividers, bookmarks | **266** | ~804 KB |
+| `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.pdf` | Plain complete edition (no front matter) | 230 | ~721 KB |
 | `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.html` | Complete edition, browser version | — | ~678 KB |
 | `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.md` | Complete edition, markdown source | — | ~490 KB |
 
@@ -39,7 +40,8 @@ It covers **all aspects of married life**: spiritual, emotional, financial, phys
 
 | File | Description |
 |------|-------------|
-| `tools/build_docs.py` | Pure-Python markdown → styled HTML + print-ready PDF builder |
+| `tools/build_docs.py` | Pure-Python markdown → styled HTML + PDF builder |
+| `tools/build_book.py` | Builds the **Final Edition**: cover page, front matter, auto-paginated TOC, part dividers and PDF bookmarks |
 | `CONVERSION_GUIDE.md` | How to rebuild the HTML/PDF, plus alternative conversion methods |
 
 ---
@@ -107,8 +109,13 @@ The PDF is generated with a **pure-Python toolchain** — no pandoc, wkhtmltopdf
 ```bash
 pip install --break-system-packages markdown reportlab fonttools
 
-# Build every guide file
+# Build every guide file (markdown -> HTML + plain PDF)
 python3 tools/build_docs.py --all
+
+# Build the polished Final Edition book
+python3 tools/build_book.py \
+  ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.md \
+  ULTIMATE_MARRIAGE_GUIDE_FINAL_EDITION.pdf
 
 # Or build one
 python3 tools/build_docs.py ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.md
@@ -138,7 +145,7 @@ Alternative conversion routes (browser print-to-PDF, pandoc, wkhtmltopdf) are do
 - ✅ Part 4 — Overcoming Challenges
 - ✅ **Part 5 — Creating a Lasting Legacy**
 
-**All five parts are complete.** 27 chapters, 22 appendices, 230 pages.
+**All five parts are complete.** 27 chapters, 22 appendices, 266 pages in the Final Edition.
 
 ---
 

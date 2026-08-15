@@ -13,7 +13,7 @@ A Comprehensive Manual for Muslim Couples
 
 | Metric | Value |
 |--------|-------|
-| **Total pages (PDF)** | **230** |
+| **Total pages (Final Edition PDF)** | **266** |
 | Parts | **5 of 5 — complete** |
 | Chapters | **27** |
 | Appendices | **22 (A–V)** |
@@ -29,7 +29,8 @@ A Comprehensive Manual for Muslim Couples
 ## 📕 Deliverables
 
 ### Primary
-- **`ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.pdf`** — **230 pages**, A4, paginated, running headers
+- **`ULTIMATE_MARRIAGE_GUIDE_FINAL_EDITION.pdf`** — **266 pages**. The finished book: designed cover, title page, sources & disclaimers, "How to Use This Guide", a Table of Contents with real page numbers, full-page part dividers, chapter-tracking running headers, and 54 clickable PDF bookmarks
+- `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.pdf` — 230 pages, plain edition without front matter
 - `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.html` — browser edition
 - `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.md` — source
 

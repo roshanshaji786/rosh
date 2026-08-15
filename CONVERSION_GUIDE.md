@@ -4,7 +4,22 @@ The PDFs in this repository are **generated automatically** by `tools/build_docs
 
 ---
 
-## ✅ Method 1: The Included Builder (Recommended)
+## ⭐ Method 0: The Final Edition Book Builder
+
+`tools/build_book.py` produces the polished, print-ready book — cover page, front
+matter, an auto-paginated Table of Contents, full-page part dividers and clickable
+PDF bookmarks. It runs the layout twice so the TOC page numbers and the page count
+printed on the cover are always accurate.
+
+```bash
+python3 tools/build_book.py \
+  ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.md \
+  ULTIMATE_MARRIAGE_GUIDE_FINAL_EDITION.pdf
+```
+
+---
+
+## ✅ Method 1: The Plain Builder
 
 ### Install dependencies
 
@@ -109,7 +124,8 @@ wkhtmltopdf --enable-local-file-access \
 
 | Source | HTML | PDF | Pages |
 |--------|------|-----|-------|
-| `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.md` | 678 KB | 721 KB | **230** |
+| **`ULTIMATE_MARRIAGE_GUIDE_FINAL_EDITION.pdf`** (via `build_book.py`) | — | 804 KB | **266** |
+| `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-5.md` | 678 KB | 721 KB | 230 |
 | `ULTIMATE_MARRIAGE_GUIDE_Parts_1-3.md` | 440 KB | 450 KB | 145 |
 | `ULTIMATE_MARRIAGE_GUIDE_Part_4.md` | 135 KB | 203 KB | 47 |
 | `ULTIMATE_MARRIAGE_GUIDE_Part_5.md` | 106 KB | 154 KB | 39 |
