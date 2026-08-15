@@ -1,182 +1,96 @@
-# Project Summary: Ultimate Marriage Guide Parts 1-3
+# Project Summary
 
-## ✅ Project Completion Status
+**THE ULTIMATE GUIDE TO A SUCCESSFUL MARRIAGE**
+A Comprehensive Manual for Muslim Couples
 
-**STATUS: COMPLETE (with workaround for PDF generation)**
-
-## 📋 What Was Accomplished
-
-### 1. Content Creation ✅
-- **Created comprehensive marriage guide** with Parts 1-3
-- **Total Pages:** ~115 pages
-- **Total Lines:** 6,273 lines of markdown
-- **File Size:** ~300KB (markdown), ~428KB (HTML)
-
-### 2. Chapters Completed ✅
-
-#### Part 1: The Foundation of Marriage (30 pages)
-- ✅ Chapter 1: Introduction – Why This Guide Matters
-- ✅ Chapter 2: The Islamic Foundation of Marriage
-- ✅ Chapter 3: The Spiritual Dimension of Marriage
-- ✅ Chapter 4: Rights & Responsibilities in Islam
-- ✅ Chapter 5: The Purpose of Marriage in Islam
-
-#### Part 2: Building a Strong Marriage (35 pages)
-- ✅ Chapter 6: The Art of Communication in Marriage
-- ✅ Chapter 7: Emotional Intelligence in Marriage
-- ✅ Chapter 8: Love Languages & Expressing Love
-- ✅ Chapter 9: Conflict Resolution & Problem Solving
-- ✅ Chapter 10: Intimacy, Romance & Physical Connection
-
-#### Part 3: Practical Aspects of Married Life (30+ pages)
-- ✅ Chapter 11: Financial Management in Marriage
-- ✅ Chapter 12: Family, In-Laws & Extended Family
-- ✅ Chapter 13: Parenting & Raising Children
-- ✅ **Chapter 14: Career, Work-Life Balance & Ambitions** (NEWLY ADDED)
-- ✅ **Chapter 15: Health, Wellness & Self-Care** (NEWLY ADDED)
-
-### 3. Appendices ✅
-- ✅ Appendix A: Marriage Assessment Worksheets
-- ✅ Appendix B: Marriage Goal Setting Worksheets
-- ✅ Appendix C: Conflict Resolution Toolkit
-- ✅ Appendix D: Intimacy & Romance Worksheets
-- ✅ Appendix E: Financial Planning Worksheets
-- ✅ Appendix F: Parenting Worksheets
-- ✅ Appendix G: Health & Wellness Worksheets
-- ✅ Appendix H: Duas for Marriage
-- ✅ Appendix I: Recommended Resources
-- ✅ Appendix J: Quick Reference Guides
-
-### 4. Files Delivered ✅
-
-| File | Description | Size | Status |
-|------|-------------|------|--------|
-| `ULTIMATE_MARRIAGE_GUIDE_Parts_1-3.md` | Complete markdown source | 300KB | ✅ Committed |
-| `ULTIMATE_MARRIAGE_GUIDE_Parts_1-3.html` | Browser-ready HTML version | 428KB | ✅ Committed |
-| `README.md` | Documentation & usage guide | 6.8KB | ✅ Committed |
-| `CONVERSION_GUIDE.md` | PDF generation instructions | 5.1KB | ✅ Committed |
-
-### 5. Git Repository ✅
-- ✅ All files committed to branch `arena/019fef57-rosh`
-- ✅ Pushed to GitHub: https://github.com/roshanshaji786/rosh/tree/arena/019fef57-rosh
-- ✅ Commit history:
-  - `007b91d` - Regenerate HTML with updated header information
-  - `a84086b` - Update header to reflect ~115 pages and completion status
-  - `b53c9b2` - Add PDF conversion guide with multiple methods
-  - `b3910de` - Add comprehensive marriage guide Parts 1-3 (115+ pages)
-
-## ❌ What Couldn't Be Done
-
-### PDF Auto-Generation ❌
-**Reason:** Environment restrictions prevented automatic PDF generation:
-- No pre-installed PDF conversion tools (pandoc, wkhtmltopdf, weasyprint)
-- Network restrictions blocked downloading large binary files
-- Permission restrictions prevented system dependency installation
-- Externally managed Python environment blocked standard package installations
-
-### Workaround Provided ✅
-Created `CONVERSION_GUIDE.md` with **4 different methods** for generating PDF:
-1. **Browser Print to PDF** (Recommended - works on all systems)
-2. **Pandoc** (Command line tool)
-3. **wkhtmltopdf** (Command line tool)
-4. **WeasyPrint** (Python library)
-
-## 🎯 Islamic & General Wisdom Integrated
-
-### Islamic Sources (10 books):
-- ✅ The Holy Quran
-- ✅ Sahih Al-Bukhari & Sahih Muslim
-- ✅ The Muslim Marriage Guide (Ruqaiyyah Waris Maqsood)
-- ✅ A Gift for Nikah (Abdul Raheem Limbada)
-- ✅ The Essentials of Islamic Marriage (Muhammad Rifat Uthman)
-- ✅ Handbook of a Healthy Muslim Marriage (Abdur-Rahman ibn Yusuf Mangera)
-- ✅ Before You Tie the Knot (Salma Abugideiri & Mohamed Hag Magid)
-- ✅ Dwell in Tranquility (Kamal Shaarawy)
-- ✅ With the Heart in Mind (Mikaeel Ahmed Smith)
-- ✅ The Marriage Guide According to the Sunnah (Imam Nasir al-Din Albani)
-
-### General Relationship Sources (10 books):
-- ✅ The 5 Love Languages (Gary Chapman)
-- ✅ The Seven Principles for Making Marriage Work (John Gottman)
-- ✅ Men Are from Mars, Women Are from Venus (John Gray)
-- ✅ Hold Me Tight (Dr. Sue Johnson)
-- ✅ Attached (Amir Levine & Rachel Heller)
-- ✅ Love & Respect (Emerson Eggerichs)
-- ✅ The Relationship Cure (John Gottman)
-- ✅ Mating in Captivity (Esther Perel)
-- ✅ Nonviolent Communication (Marshall Rosenberg)
-- ✅ The Mastery of Love (Don Miguel Ruiz)
-
-## 📊 Content Statistics
-
-- **Total Chapters:** 15
-- **Total Appendices:** 10 (A-J)
-- **Total Pages:** ~115
-- **Total Lines:** 6,273
-- **Markdown Size:** 300KB
-- **HTML Size:** 428KB
-- **Islamic Sources:** 10
-- **General Sources:** 10
-- **Practical Exercises:** 50+
-- **Worksheets:** 10+
-- **Duas Included:** 20+
-
-## 💡 Key Features Implemented
-
-✅ **Deep Islamic Foundation** - Quran, Hadith, Prophetic examples
-✅ **Modern Psychology Integration** - Gottman, Chapman, Johnson, Perel
-✅ **Practical Tools** - Exercises, worksheets, actionable advice
-✅ **Comprehensive Coverage** - All aspects of married life
-✅ **Cultural Relevance** - Addresses modern challenges
-✅ **Professional Formatting** - Ready for printing or digital use
-✅ **Easy Conversion** - HTML file ready for browser PDF generation
-
-## 🚀 How to Use
-
-### For Users:
-1. Clone the repository: `git clone https://github.com/roshanshaji786/rosh.git`
-2. Navigate to the branch: `cd rosh && git checkout arena/019fef57-rosh`
-3. Open `ULTIMATE_MARRIAGE_GUIDE_Parts_1-3.html` in your browser
-4. Generate PDF using one of the methods in `CONVERSION_GUIDE.md`
-5. Start reading and applying the wisdom!
-
-### For Developers:
-- The markdown file is well-structured and can be extended
-- Parts 4-5 can be added following the same format
-- HTML can be regenerated using the provided Python script
-- PDF generation can be automated if system dependencies are available
-
-## 🎉 Next Steps (Optional)
-
-If you want to continue this project:
-
-1. **Complete Parts 4-5:**
-   - Part 4: Overcoming Challenges (Chapters 16-20)
-   - Part 5: Creating a Lasting Legacy (Chapters 21-25)
-
-2. **Add More Features:**
-   - Interactive quizzes
-   - Audio versions
-   - Mobile app version
-   - Translation to other languages
-
-3. **Improve PDF Generation:**
-   - Set up a CI/CD pipeline with PDF generation
-   - Use a cloud service for PDF conversion
-   - Create a Docker container with all dependencies
-
-## 🙏 Special Notes
-
-This guide was created with the intention of helping Muslim couples build strong, faith-based marriages. It combines:
-- **Authentic Islamic teachings** from Quran and Sunnah
-- **Proven psychological insights** from leading researchers
-- **Practical wisdom** from real-life experiences
-
-**May Allah bless all who read, share, and apply this guide!**
+**Version:** 2.0 (Parts 1–4 Complete)
+**Date:** August 15, 2026
+**Repository:** https://github.com/roshanshaji786/rosh
 
 ---
 
-**Project Status:** ✅ COMPLETE (Parts 1-3)
-**Date:** August 15, 2026
-**Total Content:** ~115 pages
-**Repository:** https://github.com/roshanshaji786/rosh/tree/arena/019fef57-rosh
+## 📊 Statistics
+
+| Metric | Value |
+|--------|-------|
+| **Total pages (PDF)** | **192** |
+| Total parts | 4 of 5 |
+| Total chapters | 21 |
+| Total appendices | 16 (A–P) |
+| Markdown lines | ~8,100 |
+| Islamic sources | 10 books + Quran & the two Sahihs |
+| General relationship sources | 10 books |
+| Practical exercises | 60+ |
+| Worksheets & templates | 16 |
+| Duas included | 25+ |
+
+---
+
+## 📕 Deliverables
+
+### Primary
+- **`ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-4.pdf`** — 192 pages, A4, paginated, running headers
+- `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-4.html` — browser edition
+- `ULTIMATE_MARRIAGE_GUIDE_COMPLETE_Parts_1-4.md` — source
+
+### Individual parts
+- `ULTIMATE_MARRIAGE_GUIDE_Parts_1-3.{md,html,pdf}` — 145 pages, Ch. 1–15, App. A–J
+- `ULTIMATE_MARRIAGE_GUIDE_Part_4.{md,html,pdf}` — 47 pages, Ch. 16–21, App. K–P
+
+### Supporting
+- `tools/build_docs.py` — pure-Python markdown → HTML + PDF builder
+- `README.md` — documentation
+- `CONVERSION_GUIDE.md` — build instructions & troubleshooting
+
+---
+
+## ✅ Part 4: Overcoming Challenges (New in v2.0)
+
+| Ch. | Title | Core content |
+|-----|-------|--------------|
+| 16 | When Love Fades | Mawaddah vs. rahmah, bids for connection (Gottman 86% vs. 33%), Perel's closeness/desire paradox, Negative Sentiment Override & *husn al-dhann*, love-map rebuild, the Magic Six Hours, rekindling through worship, asymmetric motivation |
+| 17 | Trust & Betrayal | Six forms of betrayal, *mithaqan ghaliza*, betrayal trauma, the seven conditions of recovery, the four conditions of tawbah incl. *haqq al-'ibad*, Atone → Attune → Attach, pornography (spiritual + neurological), the trust ledger, forgiveness vs. trust |
+| 18 | Anger, Harm & Toxic Patterns | Prophetic anger protocol, diffuse physiological arousal & the 20-minute rule, time-out agreement, Four Horsemen antidotes, contempt as top divorce predictor, seven toxic patterns, the six-level Escalation Ladder, abuse defined, the unambiguous Islamic position (incl. a careful treatment of 4:34), guidance for families & imams, and for those causing harm |
+| 19 | Trials | Infertility (Quran 42:49–50, IVF & kafalah notes, the Shield Agreement), miscarriage & child loss, chronic illness & caregiver burnout, mental illness & stigma, financial catastrophe, the Trial Protocol, the duas of the Prophets |
+| 20 | Modern Pressures | Phubbing research, the Household Tech Charter, the comparison trap, the Screenshot Test, long-distance marriage (incl. Umar RA's four-month standard), addiction (the four C's, non-shaming approach), deen vs. 'urf vs. preference, burnout & the second shift |
+| 21 | Divorce & Reconciliation | "Most hated of permissible things" read precisely, the seven-step Quranic pre-divorce process incl. the commanded 4:35 arbitration, indicators divorce may be right, talaq/khula/faskh/mubara'ah/tafwid, talaq al-Sunnah, talaq in anger, the ethics of divorcing well, children as non-parties, the reconciliation off-ramps, life after divorce & dismantling stigma |
+
+### Appendices K–P
+- **K** — Weekly "State of the Union" meeting agenda + score sheet
+- **L** — Transparency & Trust-Rebuilding Agreement (7 sections, incl. sunset clause)
+- **M** — Safety Assessment checklist & Safety Plan (documents, contacts, digital safety)
+- **N** — Duas for Hardship & Healing (Yunus, Ayyub, Zakariyya, istikhara, and more)
+- **O** — Household Tech Charter template (12 commitments)
+- **P** — Crisis Decision Tree (safety → betrayal → trial → toxicity → drift)
+
+---
+
+## 🔧 PDF Generation — Resolved
+
+Earlier versions of this project shipped without a PDF because pandoc, wkhtmltopdf, and WeasyPrint's system libraries were unavailable in the build environment.
+
+**This is now fixed.** `tools/build_docs.py` generates the PDF using only `markdown` + `reportlab` + `fonttools` — all pip-installable, with no system library dependencies. It handles headings, tables (with repeating headers), blockquotes, nested lists, fenced code, pagination, running headers, page numbers, glyph coverage filtering, and auto-repair of malformed inline markup.
+
+```bash
+pip install --break-system-packages markdown reportlab fonttools
+python3 tools/build_docs.py --all
+```
+
+---
+
+## 🗺️ Remaining Work
+
+**Part 5: Creating a Lasting Legacy** (~20 pages)
+- Growing old together — marriage in the later decades
+- Raising righteous children and grandchildren
+- Remarriage, blended families & second chances
+- Marriage as sadaqah jariyah
+- Reuniting in Jannah
+
+---
+
+## ⚠️ Disclaimers
+
+- **Educational, not a fatwa.** Consult a qualified scholar for rulings; consult a lawyer for legal matters.
+- **Not therapy.** Chapters 17–20 address trauma, addiction, depression, and abuse — involve licensed professionals.
+- **Safety over patience.** See Chapter 18 and Appendix M.
